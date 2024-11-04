@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "incremental": true, // 이 줄을 추가하세요
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    /* Bundler mode */
+    "moduleResolution": "node", // 또는 "nodenext"
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true,  // 추가
+    "esModuleInterop": true,             // 추가
+    "jsxImportSource": "react",  // 추가
+
+  },
+  "include": [
+    "src"
+  ]
+}
