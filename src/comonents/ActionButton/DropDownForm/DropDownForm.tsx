@@ -67,7 +67,7 @@ const DropDownForm: FC<TDropDownFormProps> = ({
         dispatch(
           addLog({
             logId: v4(),
-            logMessage: `리스트 생성하기 : ${text}`,
+            logMessage: `일 생성하기 : ${text}`,
             logAuthor: "User",
             logTimestamp: String(Date.now())
           })
